@@ -1,0 +1,155 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_lights_punctual"
+    ],
+    "buffers": [
+        {
+            "byteLength": 0,
+            "uri": "buffer.bin"
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "cameras": [
+        {
+            "name": "",
+            "type": "perspective",
+            "perspective": {
+                "znear": 10.0,
+                "zfar": 600000.0,
+                "aspectRatio": 1.5,
+                "yfov": 0.660593509674072
+            }
+        },
+        {
+            "name": "",
+            "type": "perspective",
+            "perspective": {
+                "znear": 10.0,
+                "zfar": 600000.0,
+                "aspectRatio": 1.5,
+                "yfov": 0.660593509674072
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "name": "camera1",
+            "translation": [
+                0.0267179608345032,
+                0.0474366843700409,
+                1.16925919055939
+            ],
+            "rotation": [
+                -0.0418593287467957,
+                0.0278971493244171,
+                0.0011692363768816,
+                0.998733282089233
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "camera": 0
+        },
+        {
+            "name": "camera2",
+            "translation": [
+                -0.358293563127518,
+                0.107706420123577,
+                0.392999768257141
+            ],
+            "rotation": [
+                -0.0556679144501686,
+                0.91462779045105,
+                0.135060489177704,
+                0.376982361078262
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "camera": 1
+        },
+        {
+            "name": "directionalLight1",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.70710676908493,
+                0.0,
+                0.0,
+                0.70710676908493
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 0
+                }
+            }
+        }
+    ],
+    "extensions": {
+        "KHR_lights_punctual": {
+            "lights": [
+                {
+                    "name": "",
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "intensity": 1.0,
+                    "type": "directional"
+                }
+            ]
+        }
+    }
+}
